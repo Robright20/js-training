@@ -1,5 +1,7 @@
 ### Setup
 ```sh
+
+test
 # download the code locally
 git clone https://github.com/wildcodeschoolparis/js-training.git
 
