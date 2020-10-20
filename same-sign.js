@@ -9,7 +9,12 @@
  */
 
 // Your code :
-
+const sameSign = (a, b) => {
+	if (a && b)
+		return (a * b > 0)
+	else
+		return (!a && !b);
+}
 //* Begin of tests
 const assert = require('assert')
 

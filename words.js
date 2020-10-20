@@ -7,6 +7,9 @@
  * @next whisper
  */
 
+function words(str) {
+
+}
 
 //* Begin of tests
 const assert = require('assert')

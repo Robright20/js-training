@@ -7,6 +7,15 @@
  * @next words
  */
 
+const sentence = (arr) => {
+	let res = '';
+	for (let key in arr) {
+		res += arr[key];
+		if (eval(key) + 1 < arr.length)
+			res += ' '
+	}
+	return res;
+}
 
 //* Begin of tests
 const assert = require('assert')

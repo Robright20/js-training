@@ -11,6 +11,7 @@
  */
 
 // Your code :
+const abs = a => a >= 0 ? a : -a;
 
 //* Begin of tests
 const assert = require('assert')

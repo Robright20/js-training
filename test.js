@@ -38,13 +38,32 @@ const myObj = {
 };
 
 const circular = {
-	_circular: circular,
 	get circular() {
 		return this;
 	}
 }
 
-clog(circular.circular)
+const activity = 'Surfing';
+const beach = { activity }
+
+const repeat = (str, i) => {
+	let result = '';
+	while (i--)
+		result += str;
+	return result;
+}
+
+const sentence = (arr) => {
+	let res = '';
+	for (let key in arr) {
+		res += arr[key];
+		if (eval(key) + 1 < arr.length)
+			res += ' '
+	}
+	return res;
+}
+
+clog(sentence(['bonjour', 'a', 'tous']));
 /*
 **	console.log(classElection.month)
 **	delete student.name
