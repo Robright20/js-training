@@ -11,7 +11,9 @@
 // Your code :
 
 const circular = {
-	this
+	get circular() {
+		return this;
+	}
 }
 
 //* Begin of tests
