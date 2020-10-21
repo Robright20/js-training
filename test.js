@@ -63,7 +63,8 @@ const sentence = (arr) => {
 	return res;
 }
 
-clog(sentence(['bonjour', 'a', 'tous']));
+const expected = 'cutBrace';
+clog(`need to create ${expected} function`);
 /*
 **	console.log(classElection.month)
 **	delete student.name
