@@ -9,12 +9,22 @@
  * @next keep
  */
 
+const cutFirst = (str) => {
+	if (str.length >= 2)
+		return str.substring(0, str.length - 2);
+	return str;
+}
+
 // You must write your own tests
-throw Error('No tests !')
+const assert = require('assert');
+const expected = 'cutFirst';
+
+assert.equal(typeof cutFirst, 'function', `dude you forget ${expected} function`);
+assert.equal(cutFirst.length, 1, `${expected} needs a params`);
+assert.equal(cutFirst(''), '', `${expected} should return the same string`);
+assert.equal(cutFirst('h'), 'h', `${expected} should return the same string`);
+assert.equal(cutFirst('twoLast'), 'twoLa', `${expected} did not remove the 2 last characters`);
 /*
-**	`dude you forget that ${expected} function`
-**	`${expected} needs a params`
-**	`${expected} should return the same string`
-**	`${expected} did not remove the 2 last characters`
+**	**	
 **
 */

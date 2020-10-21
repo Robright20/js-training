@@ -63,8 +63,15 @@ const sentence = (arr) => {
 	return res;
 }
 
-const expected = 'cutBrace';
-clog(`need to create ${expected} function`);
+const cutFirst = (str) => {
+	if (str.length >= 2)
+		return str.substring(0, str.length - 2);
+	return str;
+}
+
+let str = 'cutBrace';
+str = 'i';
+clog(cutFirst(str));
 /*
 **	console.log(classElection.month)
 **	delete student.name
