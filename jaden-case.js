@@ -14,12 +14,10 @@ const jadenCase = (str) => {
 	str = '';
 	for (let i in words) {
 		words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1);
-		str += words[i];
+		str += words[i] + (Number(i) == words.length - 1 ? '' : ' ');
 	}
-	console.log(str);
+	return (str);
 }
-
-//jadenCase('bonjour');
 
 // You must write your own tests
 const assert = require('assert');
