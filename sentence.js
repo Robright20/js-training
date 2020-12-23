@@ -6,7 +6,12 @@
  *
  * @next words
  */
-
+function sentence(array){
+   
+    let newarray =array.join(' ');
+    
+    return newarray};
+    console.log(sentence(['a','b','c']));
 
 //* Begin of tests
 const assert = require('assert')

@@ -8,6 +8,11 @@
  */
 
 // Your code :
+const arr = [4, "'2'"]; 
+// console.log(arr[0]);
+// console.log(arr[1]);
+// console.log(Array.isArray(arr));
+// console.log(arr.length);
 
 //* Begin of tests
 const assert = require('assert')

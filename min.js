@@ -11,6 +11,13 @@
  */
 
 // Your code :
+function min(a,b) {
+    'use strict'
+    let x ;
+    (a<b)?  x=a :x=b ;
+   return x;  
+}
+console.log(min(-500,-600));
 
 //* Begin of tests
 const assert = require('assert')

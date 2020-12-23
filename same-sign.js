@@ -9,6 +9,15 @@
  */
 
 // Your code :
+function sameSign(a,b){
+    'use strict'
+    if(a*b>0){
+        console.log("same sign") 
+    }
+    else{
+        console.log("different sign or 0") 
+    }
+}
 
 //* Begin of tests
 const assert = require('assert')

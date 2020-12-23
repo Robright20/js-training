@@ -10,6 +10,15 @@
  */
 
 // Your code :
+function multiply(a,  b) {
+    'use strict'
+    let y = 0;
+    for (let  i = 0; i < a; i++) {
+        y += b;
+    }
+    return y;
+}
+console.log(multiply(5,8))
 
 //* Begin of tests
 const assert = require('assert')

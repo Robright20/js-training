@@ -9,6 +9,11 @@
  */
 
 // Your code :
+function getFirst( arr){
+    return arr[0];
+
+}
+console.log(getFirst(['2','9','7']));
 
 //* Begin of tests
 const assert = require('assert')

@@ -7,7 +7,11 @@
  * @next multiply
  */
 
-
+function total(array){
+    
+    for (var i = 0, sum = 0; i < array.length; sum += array[i++]);
+    return sum};
+    console.log(total([2,5,7]));
 //* Begin of tests
 const assert = require('assert')
 

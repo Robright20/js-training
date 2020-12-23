@@ -8,6 +8,11 @@
  */
 
 // Your code :
+function add(nombreA, nombreB) {
+    
+    return nombreA + nombreB;
+}
+// console.log(add(2, 2));
 
 //* Begin of tests
 const assert = require('assert')

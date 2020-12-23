@@ -8,7 +8,11 @@
  */
 
 // Your code :
-
+function concatStr(premiereString, deuxsiemeString) {
+   
+    return premiereString + deuxsiemeString;
+}
+console.log(concatStr('Bonj', 'our'));
 //* Begin of tests
 const assert = require('assert')
 

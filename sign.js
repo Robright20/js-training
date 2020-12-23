@@ -12,6 +12,18 @@
  */
 
 // Your code :
+function sign(x){
+    let a;
+    if(x>0){
+  a=1;
+    }
+    else if (x<0){
+        a=-1;
+    }
+    else {a=0;}
+    return a;
+}
+console.log( sign(10));
 
 //* Begin of tests
 const assert = require('assert')

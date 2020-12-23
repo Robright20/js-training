@@ -7,7 +7,12 @@
  * @next sign
  */
 
-
+function isPositive(x) {
+    
+    let a= (x>=0) ? 'positif number':'negatif number';
+   return a;
+}
+console.log(isPositive(-0.6));
 
 //* Begin of tests
 const assert = require('assert')

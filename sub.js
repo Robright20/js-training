@@ -8,6 +8,11 @@
  */
 
 // Your code :
+function sub(a,b){
+    
+    return a-b;
+}
+console.log(sub);
 
 //* Begin of tests
 const assert = require('assert')

@@ -9,6 +9,12 @@
  */
 
 // Your code :
+function getLength( arr){
+    
+    return arr.length;
+
+}
+console.log(getLength());
 
 //* Begin of tests
 const assert = require('assert')

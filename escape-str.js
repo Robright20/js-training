@@ -9,6 +9,8 @@
  */
 
 // Your code :
+const escapeStr ='hello\`from\`the \/other\/\"side\"';
+console.log(escapeStr);
 
 //* Begin of tests
 const assert = require('assert')

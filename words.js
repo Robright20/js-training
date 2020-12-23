@@ -6,7 +6,11 @@
  *
  * @next whisper
  */
-
+function words (word){
+    let  newword =word.split(' ');
+    return newword;
+ }
+ console.log(words('wol.lol lo,lol'))
 
 //* Begin of tests
 const assert = require('assert')

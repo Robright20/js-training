@@ -11,6 +11,15 @@
  */
 
 // Your code :
+function multiply(x, y) {
+    'use strict'
+    if ((x === 0) || (y === 0))
+        return 0;
+    else
+        return (x + multiply(x, y - 1));
+
+}
+console.log(multiply(4,8))
 
 //* Begin of tests
 const assert = require('assert')
