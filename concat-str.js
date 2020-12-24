@@ -8,7 +8,11 @@
  */
 
 // Your code :
+function concatStr(firstString, secondString) {
 
+    return firstString + secondString;
+}
+console.log(concatStr('Sour', 'aya'));
 //* Begin of tests
 const assert = require('assert')
 

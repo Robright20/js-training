@@ -8,7 +8,10 @@
  */
 
 // Your code :
+function add(numberA, numberB) {
 
+    return numberA + numberB;
+}
 //* Begin of tests
 const assert = require('assert')
 const rand = Math.random()

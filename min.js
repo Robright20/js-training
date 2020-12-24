@@ -11,7 +11,12 @@
  */
 
 // Your code :
-
+function min(a, b) {
+    let result;
+    (a > b) ? result = b : result = a;
+    return result;
+}
+console.log(min(-100, -10));
 //* Begin of tests
 const assert = require('assert')
 

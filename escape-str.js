@@ -9,7 +9,8 @@
  */
 
 // Your code :
-
+const escapeStr = 'nothing // `stay` the "same"!\\';
+console.log(escapeStr);
 //* Begin of tests
 const assert = require('assert')
 

@@ -9,7 +9,13 @@
  */
 
 // Your code :
-
+class Circular {
+    constructor() {
+        this.circular = this;
+    }
+}
+var circular = new Circular();
+console.log(circular.circular.circular.circular.circular);
 //* Begin of tests
 const assert = require('assert')
 

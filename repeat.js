@@ -8,7 +8,19 @@
  *
  * @next sentence
  */
+function repeat(str, num) {
+    let newStr = " ";
+    for (let i = 0; i < num; i++) {
 
+        newStr = newStr.concat(str);
+    }
+    return newStr;
+}
+
+console.log(repeat('a', 3))
+console.log(repeat('ba', 10))
+console.log(repeat('haha', 2))
+console.log(repeat('heje', 0))
 //* Begin of tests
 const assert = require('assert')
 

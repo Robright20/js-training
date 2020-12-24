@@ -10,7 +10,36 @@
  */
 
 // Your code :
+function multiply(a, b) {
+    let s = 0;
+    if (a > 0 && b > 0) {
+        for (let i = 0; i < a; i++) {
+            s += b;
+        }
 
+    } else if (a < 0 && b < 0) {
+
+        for (let i = 0; i < -a; i++) {
+            s -= b;
+        }
+    }
+    else {
+        if (a > b) {
+            for (let i = 0; i < a; i++) {
+                s += b;
+            }
+        } else {
+            for (let i = 0; i < -a; i++) {
+                s -= b;
+            }
+        }
+
+    }
+
+
+    return s;
+}
+console.log(multiply(-3, 2))
 //* Begin of tests
 const assert = require('assert')
 

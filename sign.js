@@ -12,7 +12,18 @@
  */
 
 // Your code :
-
+function sign(a) {
+    let result;
+    if (a > 0) {
+        result = 1;
+    }
+    else if (a < 0) {
+        result = -1;
+    }
+    else { result = 0; }
+    return result;
+}
+console.log(sign(-40));
 //* Begin of tests
 const assert = require('assert')
 

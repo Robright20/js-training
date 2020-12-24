@@ -8,7 +8,11 @@
  */
 
 // Your code :
+function sub(a, b) {
 
+    return a - b;
+}
+console.log(sub(-3, -5));
 //* Begin of tests
 const assert = require('assert')
 const rand = Math.random()

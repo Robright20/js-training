@@ -9,7 +9,15 @@
  */
 
 // Your code :
-
+function sameSign(a, b) {
+    if (a * b > 0) {
+        console.log("true")
+    }
+    else {
+        console.log("false")
+    }
+}
+console.log(sameSign(-2, 3))
 //* Begin of tests
 const assert = require('assert')
 

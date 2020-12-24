@@ -7,7 +7,12 @@
  * @next sign
  */
 
+function isPositive(a) {
 
+    let result = (a >= 0) ? 'true' : 'false';
+    return result;
+}
+console.log(isPositive(-50.5));
 
 //* Begin of tests
 const assert = require('assert')

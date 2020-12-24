@@ -6,6 +6,11 @@
  *
  * @next cut
  */
+function yell(str) {
+    let newStr = str.toUpperCase()
+    return newStr;
+}
+console.log(yell('Hello souraya'));
 
 // You must write your own tests
 throw Error('No tests !')

@@ -8,7 +8,26 @@
  *
  * @next keep
  */
+// cutFirst
+function cutFirst(string) {
 
+    return string.slice(0, -2);
+}
+console.log(cutFirst('souraya'));
+
+// cutLast
+function cutLast(string) {
+
+    return string.slice(2);
+}
+console.log(cutLast('souraya'));
+
+// cutFistLast
+function cutFistLast(string) {
+
+    return string.slice(2, -2);
+}
+console.log(cutFistLast('souraya'));
 // You must write your own tests
 throw Error('No tests !')
 

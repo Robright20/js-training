@@ -17,7 +17,16 @@ const sourceObject = {
 }
 
 // Your code :
+function get(key) {
 
+  return sourceObject[key];
+}
+console.log(typeof (get))
+console.log(get('num'))
+console.log(get('bool'))
+console.log(get('str'))
+console.log(get('log'))
+console.log(get('noexist'))
 //* Begin of tests
 const assert = require('assert')
 

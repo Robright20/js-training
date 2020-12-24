@@ -11,7 +11,12 @@
  */
 
 // Your code :
-
+function max(a, b) {
+    let result;
+    (a > b) ? result = a : result = b;
+    return result;
+}
+console.log(max(100, -10));
 //* Begin of tests
 const assert = require('assert')
 
